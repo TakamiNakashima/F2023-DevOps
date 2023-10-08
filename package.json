@@ -4,7 +4,8 @@
   "description": "-- Takami Nakashima",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\""
+    "test": "echo \"Error: no test specified\"",
+    "start": "node index.js"
   },
   "keywords": ["devops", "nodejs", "express", "web"],
   "author": "Takami Nakashima(101395226)",
