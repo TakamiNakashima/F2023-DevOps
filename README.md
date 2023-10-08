@@ -1,3 +1,3 @@
- #### COMP3104 – Developer Operations
+ #### DevOps – Developer Operations
 
- -- Takami Nakashima
+ Takami Nakashima
