@@ -7,11 +7,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/TakamiNakashima/F2023_COMP3104.git"
+    "eject": "react-scripts eject",
+    "predeploy" : "npm run build",
+	  "deploy" : "gh-pages -d build"
   },
   "keywords": [
     "devops",
@@ -21,10 +19,6 @@
   ],
   "author": "Takami Nakashima(101395226)",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/TakamiNakashima/F2023_COMP3104/issues"
-  },
-  "homepage": "https://github.com/TakamiNakashima/F2023_COMP3104#readme",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -51,5 +45,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
   }
 }
